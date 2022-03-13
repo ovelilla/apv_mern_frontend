@@ -2,7 +2,7 @@ import { Outlet, Navigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import useAuth from '../hooks/useAuth';
-import isEmpty from '../../../backend/helpers/isEmpty';
+import isEmpty from '../helpers/isEmpty';
 
 const RutaProtegida = () => {
     const { auth, cargando } = useAuth();
